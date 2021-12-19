@@ -10,7 +10,7 @@ class StreamsSampleTest {
 	void test() {
 		StreamsSample streamsSample=new StreamsSample();
 		String a=streamsSample.arrayListLambda("a");
-		assertEquals(a, "a");
+		assertEquals(a, "aa");
 	}
 
 }
