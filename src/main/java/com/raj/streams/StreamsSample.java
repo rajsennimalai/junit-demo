@@ -6,7 +6,7 @@ import java.util.List;
 //https://www.baeldung.com/java-8-streams
 public class StreamsSample {
 
-	public void arrayListLambda() {
+	public String arrayListLambda(String a) {
 
 		List<String> alphabets = Arrays.asList("a", "b", "c");
 
@@ -16,7 +16,7 @@ public class StreamsSample {
 //		}
 
 		alphabets.stream().forEach(System.out::println);
-		
+		return a;
 		
 
 	}

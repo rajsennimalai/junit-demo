@@ -9,7 +9,8 @@ class StreamsSampleTest {
 	@Test
 	void test() {
 		StreamsSample streamsSample=new StreamsSample();
-		streamsSample.arrayListLambda();
+		String a=streamsSample.arrayListLambda("a");
+		assertEquals(a, "a");
 	}
 
 }
